@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     #embaralha os dados
     np.random.shuffle(seeds_dataset)
-    
+    print seeds_dataset
     #define tamanho do conjunto de treinamento
     nsize = seeds_dataset.shape[0]*TAM_SET_TRAIN/100
     
